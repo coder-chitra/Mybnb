@@ -1,0 +1,107 @@
+Assignment 2: Assignment on Data Pre-Processing and Preparation.
+
+
+Set A
+
+Display the first 10 rows of the dataset “employees.csv”.
+Sample data:
+data = {
+'id': [101, 102, 103, 104, 105, 106, 107, 108, 109, 110],
+'name': ['Alice', 'Bob', 'Charlie', 'David', 'Eve', 'Frank', 'Grace', 'Heidi', 'Ivan', 'Jack'],
+'department': ['HR', 'IT', 'Finance', 'IT', 'HR', 'Finance', 'HR', 'IT', 'Finance', 'HR'],
+'salary': [50000, 60000, 55000, 65000, 70000, 62000, 58000, 69000, 61000, 57000]
+}
+
+Check if there are any missing values in the dataset and display the count per column.
+Sample data:
+data = {
+    'id': [1, 2, 3, 4],
+    'name': ['Alice', None, 'Charlie', 'David'],
+    'salary': [50000, 60000, None, 55000],
+    'department': ['HR', 'IT', 'Finance', None]
+}
+
+Display only the unique values in the “department” column.
+Sample data:
+data = {
+    'name': ['Alice', 'Bob', 'Charlie', 'David'],
+    'department': ['HR', 'IT', 'Finance', 'HR']
+}
+
+
+
+
+
+
+SET B
+
+1.   Write a Python program to:
+       a)  Group by department and calculate average salary.
+       b)   Filter employees with salary more than 55000.
+Sample Data:      
+name
+department
+salary
+
+Alice
+HR
+50000
+
+Bob
+IT
+60000
+
+Charlie
+HR
+55000
+
+David
+Finance
+65000
+
+Eve
+IT
+62000
+
+
+
+
+
+
+2.    Create a DataFrame from the given sample sales data:
+{
+"Product": ["Pen", "Notebook", "Chair", "Table", "Mouse", "Laptop", "Pen", "Table"],
+"Price": [10, 50, 1000, 1500, 700, 55000, 10, 1500],
+"Quantity": [100, 200, 5, 2, 10, 1, 100, 2],
+"Category": ["Stationery", "Stationery", "Furniture", "Furniture", "Electronics", "Electronics", "Stationery", "Furniture"]
+}
+
+Write a Python program to:
+Remove duplicate rows from the dataset.
+Replace 'Stationery' with 'Office Supplies' in the Category column.
+Display the count of products in each category after replacement.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Write a program to read "StudentsPerformance.csv" file. solve the following :
+To display the shape of dataset.
+To display the top rows of the dataset with their columns.
+To display the number of rows randomly.
+To display the number of columns and names of the columns.
+
+
+Import dataset “iris.csv”.
+Write a Python program to create a Bar plot to get the frequency of the three species of the Iris data.
+Write a Python program to create a histogram of the three species of the Iris data.
+
+Write a Python program to create data frame containing column name, salary, department add 10 rows with some missing and duplicate values to the data frame. Also drop all null and empty values. Print the modified data frame
